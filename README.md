@@ -3,9 +3,11 @@
 ## Introduction
 
 This project build an data processing system on kubernetes
-
-This is my resume: [TDD CV]([https://www.google.com](https://www.topcv.vn/xem-cv/BlFSVwEEXVlRV1YAWwQFAwEAUgEBBghSBwEGBA1840) "My CV")
-
+-----------------------------------------------------------------------------------------
+Link CV: [CV TDD](https://www.topcv.vn/xem-cv/BlFSVwEEXVlRV1YAWwQFAwEAUgEBBghSBwEGBA1840)
+Link Project gốc: [Sentiment-Classifier-ML-System-on-K8S](https://github.com/dongtd6/Sentiment-Classifier-ML-System-on-K8S)
+| Mobile/Zalo: +84 987 356 634 
+-----------------------------------------------------------------------------------------
 ## Overall System Architecture
 
 <div style="text-align: center;"> <img src="images/overall-architecture-data-processing.png" style="width: 1188px; height: auto;"></div>
