@@ -8,7 +8,7 @@ CV của tôi: [CV TDD](https://www.topcv.vn/xem-cv/BlFSVwEEXVlRV1YAWwQFAwEAUgEB
 
 Project đầy đủ: [Sentiment-Classifier-ML-System-on-K8S](https://github.com/dongtd6/Sentiment-Classifier-ML-System-on-K8S)
 
-Mobile/Zalo: +84 987 356 634 
+[Mobile/Zalo: +84 987 356 634 ](https://zalo.me/0987356634)
 -----------------------------------------------------------------------------------------
 ## Overall System Architecture
 
