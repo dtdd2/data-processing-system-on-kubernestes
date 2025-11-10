@@ -3,7 +3,9 @@
 ## Introduction
 
 This project build an data processing system on kubernetes
-This is my resume: [CV TDD]([https://www.google.com](https://www.topcv.vn/xem-cv/BlFSVwEEXVlRV1YAWwQFAwEAUgEBBghSBwEGBA1840))
+
+This is my resume: [TDD CV]([https://www.google.com](https://www.topcv.vn/xem-cv/BlFSVwEEXVlRV1YAWwQFAwEAUgEBBghSBwEGBA1840) "My CV")
+
 ## Overall System Architecture
 
 <div style="text-align: center;"> <img src="images/overall-architecture-data-processing.png" style="width: 1188px; height: auto;"></div>
