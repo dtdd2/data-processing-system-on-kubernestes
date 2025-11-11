@@ -37,7 +37,45 @@ Project đầy đủ: [Sentiment-Classifier-ML-System-on-K8S](https://github.com
 ```
 # DATA PROCESSING
 
-[Request edit host](#edit-host-on-your-computer-to-access-service-by-domain)
+### Deploy NGINX-ingress
+<div style="text-align: center;"> <img src="images/nginx-ingress-install.png" style="width: 888px; height: auto;"></div>
+
+```shell
+kubectl create ns nginx-system
+helm upgrade --install nginx-ingress ./helm-charts/nginx-ingress -n nginx-system
+```
+
+
+#### Edit host on your computer to access service by domain
+
+<div style="text-align: center;"> <img src="images/etc-host.png" style="width: 888px; height: auto;"></div>
+
+```bash
+sudo nano /etc/hosts
+```
+```
+34.142.236.205 airflow.tsc.vn
+34.142.236.205 api.minio.tsc.vn
+34.142.236.205 minio.tsc.vn
+34.142.236.205 trino.tsc.vn
+34.142.236.205 debezium.tsc.vn
+
+34.142.236.205 kafka.tsc.vn
+34.142.236.205 debezium.tsc.vn
+34.142.236.205 flink.tsc.vn
+```
+
+34.142.236.205 is IP of nginx ingress service, get it by command below and change it in hosts by your
+
+```bash
+kubectl get svc -n nginx-system
+```
+
+#### Apply ingress configs
+
+```bash
+kubectl apply -f helm-charts/ingress
+```
 
 ## Batch Processing
 
