@@ -66,7 +66,7 @@ sudo nano /etc/hosts
 ```
 
 34.142.236.205 is IP of nginx ingress service, get it by command below and change it in hosts by your
-
+<div style="text-align: center;"> <img src="images/get-ip-of-nginx-ingress-service.png" style="width: 888px; height: auto;"></div>
 ```bash
 kubectl get svc -n nginx-system
 ```
