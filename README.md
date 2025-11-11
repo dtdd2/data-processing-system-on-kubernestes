@@ -122,7 +122,7 @@ kubectl create secret generic minio-credentials \
   -n storage
 ```
 - Create database for Hive Metastore
-=> Access postgresql pod with password in /helm-chart/postgresql/auth-values.yaml (pg123)
+=> Access postgresql pod with password in /helm-chart/postgresql/auth-values.yaml (pw123)
 
 ```bash
 kubectl exec -it postgresql-0 -n storage -- psql -U pgadmin -d postgres
